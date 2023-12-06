@@ -1,0 +1,5 @@
+
+lista = input("inserisci la lista: ")
+listasplit= lista.split(" ")
+for item in listasplit:
+ print(len(item))
